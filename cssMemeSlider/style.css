@@ -22,3 +22,16 @@
   width: 500%;
   transition: 0.5s;
 }
+
+.label-block {
+  display: flex;
+  gap: 0.5em;
+}
+
+.label-block label {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
