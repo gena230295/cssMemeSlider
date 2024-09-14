@@ -14,7 +14,7 @@
   padding-top: 2em;
   margin: 0 auto;
   width: 80%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .slides {
@@ -30,17 +30,48 @@
   width: 100%;
 }
 
+.slide img {
+  border-radius: 1em;
+  width: 60%;
+}
+
+.slider-container input {
+  display: none;
+}
+
+.wallpaper-label {
+  width: 60%;
+  margin: 1em auto 0;
+}
+
 .label-block {
   display: flex;
+  justify-content: end;
   gap: 0.5em;
 }
 
 .label-block label {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2em;
   cursor: pointer;
+}
+
+.position-label-block {
+  display: flex;
+  width: 15em;
+  height: 4em;
+  justify-content: right;
+  align-items: center;
+}
+
+.padding-div {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  transition: 1s;
+  background: rgba(165, 0, 0, 0.638);
 }
 
 .slides-text {
@@ -49,8 +80,22 @@
   transition: 0.5s;
 }
 
-.meme-text {
-  width: 100%;
+.block-text {
   display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  width: 100%;
+}
+
+.position-text-block {
+  width: 60%;
+}
+
+.meme-text {
+  display: flex;
+  align-items: center;
+  height: 3em;
+  transform: translateY(-4.5em);
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 60%;
 }
