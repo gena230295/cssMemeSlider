@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(184, 170, 175);
+}
+
+.slider-container {
+  padding-top: 2em;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  transition: 0.5s;
+}
