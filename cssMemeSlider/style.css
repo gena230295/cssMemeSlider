@@ -74,10 +74,50 @@
   background: rgba(165, 0, 0, 0.638);
 }
 
+label:hover .padding-div {
+  background: rgb(82, 62, 62);
+}
+
+#slide1:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-20%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-40%);
+}
+#slide4:checked ~ .slides {
+  transform: translateX(-60%);
+}
+#slide5:checked ~ .slides {
+  transform: translateX(-80%);
+}
+
 .slides-text {
   display: flex;
   width: 500%;
   transition: 0.5s;
+}
+
+#slide1:checked ~ .slides-text {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .slides-text {
+  transform: translateX(-20%);
+}
+
+#slide3:checked ~ .slides-text {
+  transform: translateX(-40%);
+}
+#slide4:checked ~ .slides-text {
+  transform: translateX(-60%);
+}
+#slide5:checked ~ .slides-text {
+  transform: translateX(-80%);
 }
 
 .block-text {
