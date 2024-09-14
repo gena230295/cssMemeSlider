@@ -139,3 +139,60 @@ label:hover .padding-div {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 60%;
 }
+
+@media screen and (max-width: 1240px) {
+  .slide img {
+    width: 80%;
+  }
+
+  .position-text-block {
+    width: 80%;
+  }
+
+  .block-text {
+    width: 80%;
+  }
+
+  .wallpaper-label {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+
+  .position-text-block {
+    width: 100%;
+  }
+
+  .block-text {
+    width: 100%;
+  }
+
+  .wallpaper-label {
+    width: 100%;
+  }
+
+  .label-block {
+    justify-content: center;
+  }
+
+  .position-label-block {
+    justify-content: center;
+  }
+
+  .block-text {
+    margin-top: initial;
+  }
+
+  .meme-text {
+    transform: initial;
+  }
+}
